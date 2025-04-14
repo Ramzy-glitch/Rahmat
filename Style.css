@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+}
+#header{
+    text-align: right;
+    height: 20px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 50px 0 0;
+}
+a:hover{
+    color: aquamarine;
+}
+#Main{
+    background-color: white;
+    height: 575px;
+    width: 80%;
+    margin: 20px 0 0 140px;
+    display: flex;
+    justify-content: space-around;
+}
+#text{
+    background-color: white;
+    height: 575px;
+    width: 40%;
+}
+#pic{
+    height: 575px;
+    width: 40%;
+}
+#Picture{
+    height: 575px;
+    width: 100%;
+    margin: 0 0 0 55px;
+}
+.Contact{
+    font-size: 50px;
+}
+.Social{
+    image-resolution: 10;
+    inline-size: 75px;
+}
+#paragraph{
+    animation-name: New;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes New{
+    0%{
+        scale: 0;
+    }
+    100%{
+        scale: 1;
+    }
+}
+.Slide{
+    height: 575px;
+    width: 50%;
+    animation-name: Slid;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes Slid{
+    0%{
+        background-image: url("2.png");
+        background-repeat: no-repeat;
+        background-size: 10% 100%;
+    }
+    10%{
+        background-image: url("2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    20%{
+        background-image: url("3.png");
+        background-repeat: no-repeat;
+        background-size: 10% 100%;
+    }
+    30%{
+        background-image: url("3.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    40%{
+        background-image: url("4.png");
+        background-repeat: no-repeat;
+        background-size: 10% 100%;
+    }
+    50%{
+        background-image: url("4.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    60%{
+        background-image: url("5.png");
+        background-repeat: no-repeat;
+        background-size: 10% 100%;
+    }
+    70%{
+        background-image: url("5.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    80%{
+        background-image: url("6.png");
+        background-repeat: no-repeat;
+        background-size: 10% 100%;
+    }
+    90%{
+        background-image: url("6.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    100%{
+        background-image: url("Screenshot\ 2025-04-06\ 122712.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+@media screen and (max-width: 565px){
+    #header{
+        margin: 30px 0 0 0;
+    }
+    #Main{
+        width: 90%;
+        height: 1100px;
+        display: block;
+        margin: 20px 0 0 30px;
+    }
+    #text{
+        width: 80%;
+        padding: 0 0 0 50px;
+        height: 400px;
+    }
+    #Picture{
+        height: 400px;
+        margin: 250px 0 0 50px;
+        width: 100%;
+        border-radius: 30px;
+    }
+    #pic{
+        width: 80%;
+    }
+}
