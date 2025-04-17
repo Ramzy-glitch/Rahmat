@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: purple;
+    background-color: rgb(63, 36, 136);
 }
 #header{
     text-align: right;
@@ -61,7 +61,8 @@ a:hover{
 }
 .Slide{
     height: 575px;
-    width: 50%;
+    width: 100%;
+    margin: 10px 0 0 0;
     animation-name: Slid;
     animation-duration: 14s;
     animation-iteration-count: infinite;
@@ -152,5 +153,13 @@ a:hover{
     }
     #pic{
         width: 80%;
+    }
+    .Slide{
+        height: 475px;
+        width: 100%;
+    }
+    .Social{
+        inline-size: 40px;
+        image-resolution: 10;
     }
 }
